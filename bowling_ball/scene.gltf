@@ -1,0 +1,232 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 600,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7200,
+      "componentType": 5126,
+      "count": 600,
+      "max": [
+        0.9949613213539124,
+        0.9626376628875732,
+        0.9800482988357544
+      ],
+      "min": [
+        -0.9949613213539124,
+        -0.9626376628875732,
+        -0.9800482988357544
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 888,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14400,
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        0.329039990901947,
+        -0.333950012922287,
+        0.33667999505996704
+      ],
+      "min": [
+        -0.329039990901947,
+        -0.5652999877929688,
+        -0.6779500246047974
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14736,
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        0.19147953391075134,
+        -0.6964730024337769,
+        0.19147953391075134
+      ],
+      "min": [
+        -0.19147953391075134,
+        -0.9626376628875732,
+        -0.7175831198692322
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3552,
+      "componentType": 5125,
+      "count": 48,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Jiří Kuba (https://sketchfab.com/kuba.jirka)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bowling-ball-17647dd372db4d059d21f11c9eccbd9e",
+      "title": "Bowling Ball"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3744,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15072,
+      "byteOffset": 3744,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 18816,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "BowlingBallMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "BawlingBallHoleMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "BowlingBall_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "BowlingBall_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        577.3500366210938,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2819746078498312e-13,
+        -577.3500366210938,
+        0.0,
+        0.0,
+        577.3500366210938,
+        1.2819746078498312e-13,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "BowlingBall"
+    },
+    {
+      "mesh": 0,
+      "name": "BowlingBall_0"
+    },
+    {
+      "mesh": 1,
+      "name": "BowlingBall_1"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
